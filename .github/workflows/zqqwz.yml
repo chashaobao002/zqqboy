@@ -18,8 +18,8 @@ jobs:
           node-version: 12.10.0
       - name: npm install
         run: |
-          npm install
           npm install got 
+          npm install
       - name: '运行 【zqqwz】'
         run: |
           node Task/zqqwz.js
