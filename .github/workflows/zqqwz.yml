@@ -19,6 +19,7 @@ jobs:
       - name: npm install
         run: |
           npm install
+          npm install got 
       - name: '运行 【zqqwz】'
         run: |
           node Task/zqqwz.js
