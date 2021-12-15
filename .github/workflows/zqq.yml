@@ -18,8 +18,9 @@ jobs:
           node-version: 14.x
       - name: npm install
         run: |
-          npm install
           npm install md5-node
+          npm install got
+          npm install
       - name: '运行 【zqq】'
         run: |
           node Task/zqq.js
