@@ -3,7 +3,7 @@ name: zqq
 on:
   workflow_dispatch:
   schedule:
-      - cron: '0 1,16 * * *'
+      - cron: '0 0-16/2 * * *'
 jobs:
   build1:
     runs-on: macos-latest
